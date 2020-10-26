@@ -1,0 +1,29 @@
+package exercíciocondição1_brunonogueira;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class ExercícioCondição1_BrunoNogueira {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int num1;
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.print("Digite o número escolhido: ");
+        num1 = entrada.nextInt();
+        
+        if(num1 % 2 == 0){
+            System.out.println("O número é Par!");
+        }
+        else{
+            System.out.println("O número é Ímpar!");
+        }
+    }
+    
+}
